@@ -13,7 +13,7 @@ export const Signup = (props) =>{
             <h2>Sign Up</h2>
         <form className="signup-form" onSubmit={handleSubmit}>
             <label htmlfor="name">fullname</label>
-            <input value={name} name="name" id="name" placeholder="fullname" />
+            <input value={name} type=" name" name="name" id="name" placeholder="fullname" />
              <label htmlfor="email">email</label>
              <input  onChange={(e) => setEmail(e.target.value)} type="email" name="email" placeholder="youremail@gmail.com" required/><br></br>
              <label htmlfor="password">password</label>
