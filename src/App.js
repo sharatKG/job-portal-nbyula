@@ -5,14 +5,15 @@ import { Login} from "./login";
 import { Signup } from "./signup";
 
 function App() {
-  const [currentForm,setcurrentForm] = useState('login');
+  const [currentForm, setCurrentForm] = useState('login');
 
   return (
     <div className="App">
       {
-        currentForm == "login" ? <login /> : <register />
-      }
-        </div>
+        currentForm === "login" ? <Login /> : <Signup />
+      }   
+     
+    </div>
   );
 }
 
