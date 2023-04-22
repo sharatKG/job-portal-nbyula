@@ -12,9 +12,9 @@ export const Login = () => {
     return(
         <>
         <form onSubmit={handleSubmit}>
-             <label for="email">email</label>
+             <label htmlfor="email">email</label>
              <input  onChange={(e) => setEmail(e.target.value)} type="email" name="email" placeholder="youremail@gmail.com" required/><br></br>
-             <label for="password">password</label>
+             <label htmlfor="password">password</label>
                 <input onChange={(e) => setPass(e.target.value)} type="password" name="password" placeholder="********" id="password" required/><br></br>
                 <button type="submit">Log In</button>
             </form>
