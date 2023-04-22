@@ -1,8 +1,8 @@
-import React from 'react' 
-const about = () =>{
+import React, { useState } from "react";
+const About = () => {
     return(
         <h1>hello</h1>
     )
 }
 
-export default about;
+export default About;
