@@ -500,7 +500,7 @@ const FilterPopup = (props) => {
           <Grid item>
             <Button
               variant="contained"
-              color="primary"
+              color="yellow"
               style={{ padding: "10px 50px" }}
               onClick={() => getData()}
             >

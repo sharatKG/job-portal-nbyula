@@ -1,4 +1,5 @@
 import { Grid, Typography } from "@material-ui/core";
+import { grey } from "@material-ui/core/colors";
 
 const Welcome = (props) => {
   return (
@@ -8,7 +9,7 @@ const Welcome = (props) => {
       direction="column"
       alignItems="center"
       justify="center"
-      style={{ padding: "30px", minHeight: "93vh" }}
+      style={{ padding: "30px", minHeight: "93vh" ,backgroundImage:'url(${require('./images/job.jpg')})'}}
     >
       <Grid item>
         <Typography variant="h2">Welcome to Job Portal</Typography>
