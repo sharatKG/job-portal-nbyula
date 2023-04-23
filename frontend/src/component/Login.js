@@ -19,6 +19,8 @@ import isAuth from "../lib/isAuth";
 
 const useStyles = makeStyles((theme) => ({
   body: {
+   
+
     padding: "60px 60px",
   },
   inputBox: {
@@ -27,6 +29,7 @@ const useStyles = makeStyles((theme) => ({
   submitButton: {
     width: "200px",
   },
+
 }));
 
 const Login = (props) => {

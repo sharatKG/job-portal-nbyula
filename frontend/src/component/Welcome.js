@@ -9,7 +9,7 @@ const Welcome = (props) => {
       direction="column"
       alignItems="center"
       justify="center"
-      style={{ padding: "30px", minHeight: "93vh" ,backgroundImage:'url(${require('./images/job.jpg')})'}}
+      style={{ padding: "30px", minHeight: "93vh" ,backgroundImage:'url("images/k.jpg")',backgroundSize:'cover'}}
     >
       <Grid item>
         <Typography variant="h2">Welcome to Job Portal</Typography>

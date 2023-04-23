@@ -20,6 +20,8 @@ import isAuth, { userType } from "./lib/isAuth";
 
 const useStyles = makeStyles((theme) => ({
   body: {
+    backgroundImage:'url("images/k.jpg")',
+    backgroundSize:'cover',
     display: "flex",
     flexDirection: "column",
     justifyContent: "center",
