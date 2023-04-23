@@ -19,8 +19,7 @@ import isAuth from "../lib/isAuth";
 
 const useStyles = makeStyles((theme) => ({
   body: {
-   
-
+    margin: '20px',
     padding: "60px 60px",
   },
   inputBox: {
