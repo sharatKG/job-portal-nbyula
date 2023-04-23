@@ -27,13 +27,23 @@ import isAuth from "../lib/isAuth";
 
 const useStyles = makeStyles((theme) => ({
   body: {
-    padding: "60px 60px",
+  backgroundColor: 'rgba(255, 255, 255, 0.3)',
+  margin: '20px', 
+  border: '1px solid #FFF',
+  padding: "60px 60px",
+  borderRadius:'40px',
+    padding: "50px 60px",
   },
   inputBox: {
-    width: "400px",
+    backgroundColor: 'rgba(220, 200, 255, 0.3)',
+    borderRadius:'10px',
+    width: "700px",
+    color: '#000000',
   },
   submitButton: {
     width: "400px",
+    borderRadius:'40px',
+
   },
 }));
 
@@ -94,7 +104,7 @@ const MultifieldInput = (props) => {
       <Grid item>
         <Button
           variant="contained"
-          color="secondary"
+          color="primary"
           onClick={() =>
             setEducation([
               ...education,

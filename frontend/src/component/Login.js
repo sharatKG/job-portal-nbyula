@@ -19,14 +19,23 @@ import isAuth from "../lib/isAuth";
 
 const useStyles = makeStyles((theme) => ({
   body: {
+    backgroundColor: 'rgba(255, 255, 255, 0.3)',
     margin: '20px',
+    border: '1px solid #FFF',
     padding: "60px 60px",
+    borderRadius:'40px',
   },
   inputBox: {
-    width: "500px",
+    width: "400px",
+    backgroundColor:"white",
+    borderRadius:'10px',
+    border: '1px solid #0000FF',
+
+
   },
   submitButton: {
     width: "200px",
+    borderRadius:'40px',
   },
 
 }));
