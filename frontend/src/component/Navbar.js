@@ -34,7 +34,7 @@ const Navbar = (props) => {
     <AppBar position="fixed">
       <Toolbar>
         <Typography variant="h6" className={classes.title}>
-          Job Portal
+          Job Portal Nybula
         </Typography>
         {isAuth() ? (
           userType() === "recruiter" ? (
