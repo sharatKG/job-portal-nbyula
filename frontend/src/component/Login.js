@@ -28,7 +28,7 @@ const useStyles = makeStyles((theme) => ({
   inputBox: {
     width: "400px",
     backgroundColor:"white",
-    borderRadius:'10px',
+    
     border: '1px solid #0000FF',
 
 
