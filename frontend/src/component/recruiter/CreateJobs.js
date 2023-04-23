@@ -18,6 +18,16 @@ import apiList from "../../lib/apiList";
 
 const useStyles = makeStyles((theme) => ({
   body: {
+    border: '3px solid #FFF' ,
+    borderRadius:'10px',
+    backgroundColor: 'rgba(255, 255, 255, 0.6)',
+    padding: "50px",
+    outline: "none",
+    display: "flex",
+    flexDirection: "column",
+    justifyContent: "center",
+    alignItems: "center",
+    width: "100%",
     height: "inherit",
   },
   popupDialog: {
@@ -106,7 +116,12 @@ const CreateJobs = (props) => {
           <Grid item>
             <Paper
               style={{
-                padding: "20px",
+                backgroundColor: 'rgba(255, 255, 255, 0.7)',
+                margin: '20px', 
+                border: '3px solid #FFF',
+                padding: "60px 60px",
+                borderRadius:'40px',
+                padding: "30px",
                 outline: "none",
                 display: "flex",
                 flexDirection: "column",

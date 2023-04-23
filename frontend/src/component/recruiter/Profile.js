@@ -18,6 +18,7 @@ import apiList from "../../lib/apiList";
 
 const useStyles = makeStyles((theme) => ({
   body: {
+    backgroundColor: 'rgba(255, 255, 255, 0.5)',
     height: "inherit",
   },
   popupDialog: {
@@ -129,7 +130,12 @@ const Profile = (props) => {
         <Grid item xs style={{ width: "100%" }}>
           <Paper
             style={{
-              padding: "20px",
+            margin: '20px', 
+            border: '3px solid #FFF',
+            padding: "60px 60px",
+            borderRadius:'40px',  
+              backgroundColor: 'rgba(255, 255, 255, 0.6)',
+              padding: "30px",
               outline: "none",
               display: "flex",
               flexDirection: "column",

@@ -41,6 +41,7 @@ const useStyles = makeStyles((theme) => ({
     textTransform: "uppercase",
   },
   jobTileOuter: {
+    
     padding: "30px",
     margin: "20px 0",
     boxSizing: "border-box",
@@ -613,6 +614,7 @@ const ApplicationTile = (props) => {
       <Modal open={open} onClose={handleClose} className={classes.popupDialog}>
         <Paper
           style={{
+            
             padding: "20px",
             outline: "none",
             display: "flex",

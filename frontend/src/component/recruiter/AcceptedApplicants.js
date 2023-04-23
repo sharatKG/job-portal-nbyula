@@ -44,7 +44,7 @@ const useStyles = makeStyles((theme) => ({
     padding: "30px",
     margin: "20px 0",
     boxSizing: "border-box",
-    width: "100%",
+    width: "50%",
   },
   popupDialog: {
     height: "100%",

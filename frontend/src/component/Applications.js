@@ -25,21 +25,35 @@ import apiList from "../lib/apiList";
 
 const useStyles = makeStyles((theme) => ({
   body: {
-    height: "inherit",
+    backgroundColor: 'rgba(255, 255, 255, 0.3)',
+    margin: '20px', 
+    border: '1px solid #FFF',
+    padding: "60px 60px",
+    borderRadius:'40px',
+      padding: "50px 60px",
+    //height: "inherit",
   },
   statusBlock: {
+    //backgroundColor: 'rgba(255, 255, 255, 0.3)',
     width: "100%",
     height: "100%",
     display: "flex",
     alignItems: "center",
+    borderRadius:'40px',
     justifyContent: "center",
     textTransform: "uppercase",
+    border: '3px solid #FFF',
+    borderColor :"yellow",
   },
   jobTileOuter: {
+    backgroundColor: 'rgba(255, 255, 255, 0.6)',
+    borderRadius:'40px',
     padding: "30px",
     margin: "20px 0",
     boxSizing: "border-box",
     width: "100%",
+    border: '4px solid #FFF',
+    
   },
   popupDialog: {
     height: "100%",

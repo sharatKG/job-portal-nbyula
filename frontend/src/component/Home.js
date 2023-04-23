@@ -31,13 +31,28 @@ import { userType } from "../lib/isAuth";
 
 const useStyles = makeStyles((theme) => ({
   body: {
+    
     height: "inherit",
   },
   button: {
+    color:'blue',
+    border: '3px solid #FFF' ,
     width: "100%",
     height: "100%",
+    borderColor:"yellow",
+    borderRadius:'10px',
   },
   jobTileOuter: {
+    border: '3px solid #FFF' ,
+    borderRadius:'10px',
+    backgroundColor: 'rgba(255, 255, 255, 0.6)',
+    padding: "50px",
+    outline: "none",
+    display: "flex",
+    flexDirection: "column",
+    justifyContent: "center",
+    alignItems: "center",
+    width: "100%",
     padding: "30px",
     margin: "20px 0",
     boxSizing: "border-box",

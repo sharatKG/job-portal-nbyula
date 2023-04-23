@@ -20,7 +20,7 @@ import apiList from "../lib/apiList";
 
 const useStyles = makeStyles((theme) => ({
   body: {
-    backgroundColor: 'rgba(255, 255, 255, 0.3)',
+    backgroundColor: 'rgba(255, 255, 255, 0.5)',
     margin: '20px', 
     border: '1px solid #FFF',
     padding: "60px 60px",
@@ -235,12 +235,16 @@ const Profile = (props) => {
         <Grid item xs>
           <Paper
             style={{
-              padding: "20px",
+              border: '3px solid #FFF' ,
+              borderRadius:'10px',
+              backgroundColor: 'rgba(255, 255, 255, 0.6)',
+              padding: "50px",
               outline: "none",
               display: "flex",
               flexDirection: "column",
               justifyContent: "center",
               alignItems: "center",
+              width: "100%",
             }}
           >
             <Grid container direction="column" alignItems="stretch" spacing={3}>
