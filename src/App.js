@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { Router ,Route, Switch } from 'react-router-dom';
+import { Routes ,Route } from 'react-router-dom';
 import logo from './logo.svg';
 import './App.css';
 import About from './component/About';
@@ -15,20 +15,18 @@ function App() {
   }
 
   return (
+   
     <div className="App">
-       {
-        currentForm === "login" ? <Login onFormSwitch={toggleForm} /> : <Signup onFormSwitch={toggleForm} />
-       }
-      
-       {
-        <Router>
-          <switch>        
-            <Route path='/' element={<About />} />
-          </switch>
-        </Router>
-       }
-       
-    </div>
+
+
+
+      <Routes>
+          <Route path='/' element={<Login />} />
+          <Route path='/Signup' element={<Signup />} />
+          <Route path='/About' element={<About />} />
+      </Routes>
+   
+      </div>
   );
 }
 
